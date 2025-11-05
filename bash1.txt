@@ -1,0 +1,20 @@
+/c/Users/pearl
+pearl
+total 16
+drwxr-xr-x 1 pearl 197609 0 ноя  5 14:46 ./
+drwxr-xr-x 1 pearl 197609 0 ноя  5 14:46 ../
+-rw-r--r-- 1 pearl 197609 0 ноя  5 14:46 1
+-rw-r--r-- 1 pearl 197609 0 ноя  5 14:46 2
+-rw-r--r-- 1 pearl 197609 0 ноя  5 14:46 3
+line1
+line2
+line3
+line1
+line2
+line3
+line1
+line2
+line3
+replaced_line1
+replaced_line2
+replaced_line3
