@@ -1,20 +1,24 @@
-/c/Users/pearl
-pearl
-total 16
-drwxr-xr-x 1 pearl 197609 0 ноя  5 14:46 ./
-drwxr-xr-x 1 pearl 197609 0 ноя  5 14:46 ../
--rw-r--r-- 1 pearl 197609 0 ноя  5 14:46 1
--rw-r--r-- 1 pearl 197609 0 ноя  5 14:46 2
--rw-r--r-- 1 pearl 197609 0 ноя  5 14:46 3
-line1
-line2
-line3
-line1
-line2
-line3
-line1
-line2
-line3
-replaced_line1
-replaced_line2
-replaced_line3
+cd ~
+pwd
+mkdir test1
+cd ~
+mkdir test2
+rmdir test2
+rm test1/file2
+mkdir test3
+touch test3/file1 test3/file2
+rm -r test3
+mkdir test4
+mv test1/file1 test4/
+mv test1/file3 test4/
+echo "line" >> test4/file1
+echo "line" >> test4/file1
+echo "line" >> test4/file1
+cat test4/file1
+echo "line" >> test4/file3
+echo "line" >> test4/file3
+echo "line" >> test4/file3
+cat test4/file1 test4/file3
+echo "cat test4/file1 test4/file3" >> bash1.txt
+sed -i 's/line/replaced/g' test4/file1
+echo 'sed -i "s/line/replaced/g" test4/file1' >> bash1.txt
